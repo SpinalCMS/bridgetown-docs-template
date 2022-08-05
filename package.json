@@ -1,0 +1,16 @@
+{
+  "name": "bridgetown-docs-template",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spinalcms/bridgetown-docs-template.git"
+  },
+  "author": "Spinal Devs <devs@spinalcms.com>",
+  "homepage": "https://spinalcms.com",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tailwindcss": "^3.1.8",
+    "@tailwindcss/typography": "^0.5.4"
+  }
+}
