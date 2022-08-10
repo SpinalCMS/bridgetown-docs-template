@@ -3,5 +3,5 @@
 
 set -e
 
-script/cibuild
+# script/cibuild
 bundle exec rake release
