@@ -9,7 +9,7 @@ A Bridgetown documentation site theme, built with Tailwind CSS.
 ## Sponsored By [Spinal](https://spinalcms.com/)
 
 <a href="https://spinalcms.com/" target="_blank">
-  <img src="https://user-images.githubusercontent.com/988051/183079316-af747ef2-42a9-47d8-9a0c-488ed4b6a689.jpg" alt="Spinal CMS logo" width="400" />
+  <img src="https://user-images.githubusercontent.com/988051/183079316-af747ef2-42a9-47d8-9a0c-488ed4b6a689.jpg" alt="Spinal CMS logo" width="200"/>
 </a>
 
 
@@ -64,6 +64,10 @@ The plugin will automatically use any of the following metadata variables if the
 
 - name
 - email
+
+
+## Related repo's
+- [Documentation theme built with Tailwind CSS](https://github.com/SpinalCMS/docs-template)
 
 
 ## Contributing
