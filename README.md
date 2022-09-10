@@ -68,6 +68,7 @@ The plugin will automatically use any of the following metadata variables if the
 
 ## Related repo's
 - [Documentation theme built with Tailwind CSS](https://github.com/SpinalCMS/docs-template)
+- [11ty documentation template using Tailwind CSS](https://github.com/SpinalCMS/11ty-docs-template)
 
 
 ## Contributing
