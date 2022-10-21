@@ -8,9 +8,9 @@
 <div class="fixed top-[3.5rem] h-screen shadow-xl px-4 left-0 hidden peer-checked:block lg:relative lg:top-0 lg:h-auto lg:px-0 lg:block lg:flex-none lg:shadow-none">
   <div class="absolute inset-y-0 right-0 w-full lg:w-[50vw] bg-white lg:bg-slate-50"></div>
 
-  <nav class="sticky top-[4.5rem] w-64 pr-8 text-base lg:text-sm xl:w-72 xl:pr-16">
-    <ul role="list" class="-ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-7 pl-0.5 space-y-8">
-      <% group_by(@resources, "category").each do |resource| %>
+  <nav class="sticky top-[4.5rem] w-64 text-base lg:text-sm xl:w-72">
+    <ul role="list" class="-ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-7 pl-0.5 pr-8 space-y-8 xl:pr-16">
+      <% grouped_and_sorted_documentation_resources.each do |resource| %>
         <li>
           <h3 class="font-semibold tracking-tight text-slate-900">
             <%= resource.fetch("name", "No Category").titleize %>
@@ -18,6 +18,8 @@
 
           <ul role="list" class="pl-3 mt-3 space-y-2">
             <% sort(resource.fetch("items", []), "order").each do |item| %>
+              <% next if !item.published? %>
+
               <li>
                 <a href="<%= url_for(item) %>" class="text-slate-900 hover:text-slate-800">
                   <%= item.data.title %>
