@@ -6,9 +6,9 @@ A Bridgetown documentation site theme, built with Tailwind CSS.
 <img src="https://github.com/spinalcms/bridgetown-docs-template/blob/main/bridgetown-docs-preview.jpg?raw=true" alt="preview of the Bridgetown documentation theme, built with Tailwind CSS" />
 
 
-## Sponsored By [Spinal](https://spinalcms.com/)
+## Sponsored By [Spinal](https://spinalcms.com/cms-for-bridgetown/)
 
-<a href="https://spinalcms.com/" target="_blank">
+<a href="https://spinalcms.com/cms-for-bridgetown/" target="_blank">
   <img src="https://user-images.githubusercontent.com/988051/183079316-af747ef2-42a9-47d8-9a0c-488ed4b6a689.jpg" alt="Spinal CMS logo" width="200"/>
 </a>
 
