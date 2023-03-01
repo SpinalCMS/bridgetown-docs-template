@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "bridgetown"
+require "bridgetown-docs-template/version"
 
 Bridgetown.initializer :"bridgetown-docs-template" do |config|
   config.source_manifest(
