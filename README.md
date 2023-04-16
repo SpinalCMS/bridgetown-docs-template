@@ -21,6 +21,12 @@ Run this command to add this plugin to your site's Gemfile:
 $ bundle add bridgetown-docs-template -g bridgetown_plugins
 ```
 
+Then add the initializer to your configuration in `config/initializers.rb`:
+
+```ruby
+init :"bridgetown-docs-template"
+```
+
 
 ## Requirements
 
@@ -34,7 +40,7 @@ There are a few requirements for this theme to run.
 
 The following frontmatter is expected in your collection resources:
 
-- layout: bridgetown_docs_template/layout
+- layout: `bridgetown_docs_template/layout`
 - title
 - description
 - category
@@ -42,7 +48,7 @@ The following frontmatter is expected in your collection resources:
 If you want to show the “video” or “quick links” section—likely in your docs root, add `show_videotour: true` and `show_quicklinks: true` to your root's markdown file.
 
 
-### Add the gem's path in the `content` array, like so:
+### Add the gem's path in the `content` array of your Tailwind CSS config, like so:
 
 ```js
 content: [
