@@ -58,6 +58,20 @@ content: [
 ]
 ```
 
+One way this can be achieved without hardcoding paths is as follows:
+
+```js
+const execSync = require("child_process").execSync;
+const gemPath = execSync("bundle show bridgetown-docs-template", { encoding: "utf-8" }).trim();
+
+module.exports = {
+  content: [
+    ...,
+    gemPath + "/**/*.{html,md,liquid,erb,serb,rb}",
+  ],
+  ...
+}
+```
 
 ## Configuring views/components
 
