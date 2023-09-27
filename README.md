@@ -85,8 +85,13 @@ The plugin will automatically use any of the following metadata variables if the
 - name
 - email
 
+## Examples
+
+- [Spinal](https://spinalcms.com/docs/)
+- [Helptail](https://helptail.com/docs/)
 
 ## Related repo's
+
 - [Documentation theme built with Tailwind CSS](https://github.com/SpinalCMS/docs-template)
 - [11ty documentation template using Tailwind CSS](https://github.com/SpinalCMS/11ty-docs-template)
 - [Astro documentation template using Tailwind CSS](https://github.com/SpinalCMS/astro-docs-template)
